@@ -1,0 +1,10 @@
+﻿@model Application.ViewModels.Course.GetCourseByIdViewModel
+@{
+    ViewData["Title"] = "ShowCourse";
+}
+
+<h1>@Model!.Name</h1>
+<img class="img-thumbnail" src="@Model.ImageUrl" alt=""/>
+<p>
+    @Model.Description
+</p>
